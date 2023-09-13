@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: sans-serif;
+}
+h2
+{
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 3rem;
+    color: goldenrod;
+    font-family: 'Courier New', Courier, monospace;
+}
+.starting-soon
+{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(3, 154, 159);
+}
+h1
+{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+}
+.coming-soon
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(3, 154, 159);
+}
+.countdown 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.day,
+.hour,
+.minute,
+.second
+{
+    font-size: 3rem;
+}
+.siit-logo
+{
+    height: 50vh;
+}
+.cit-logo
+{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: fixed;
+    left: 85%;
+    bottom: 75%;
+    padding-left: auto;
+    /* overflow: auto;
+    height: 20vh;
+    padding-left: 80%;
+    padding-bottom: 10;
+    float: right; */
+}
+.cit-logo img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
